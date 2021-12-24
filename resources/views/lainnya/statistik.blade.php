@@ -991,8 +991,8 @@
         text: ''
     },
     xAxis: {
-        categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
-            'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+        categories: ['2010', '2011', '2012', '2013', '2014', '2015',
+            '2016', '2017', '2018', '2019', '2020', '2021']
     },
     yAxis: {
         title: {
@@ -1018,7 +1018,7 @@
         }
     },
     series: [{
-        name: 'Tokyo',
+        name: 'Jelantah Heroes',
         marker: {
             symbol: 'square'
         },
@@ -1030,7 +1030,7 @@
         }, 23.3, 18.3, 13.9, 9.6]
 
     }, {
-        name: 'London',
+        name: 'Aksi Sosial',
         marker: {
             symbol: 'diamond'
         },

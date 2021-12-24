@@ -400,9 +400,6 @@
     .gmb-profile{
         width: 400px; height:314px; float: right; margin-top: 130px;
     }
-    .full-konten{
-        background-color: #DDE1E9; 
-    }
     .col-nilai-kiri{
         padding-left: 90px
     }

@@ -84,18 +84,43 @@
     }
 
     .card{
-        box-shadow:  0px 8px 32px 0px rgba(1, 41, 112, 0.1);
-        border-radius:12px; 
+        border-radius:12px !important; 
+        box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+        transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+        cursor: pointer;
     }
-    .card:hover {
-    transform: scale(1.02);
-    box-shadow: 0px 0 30px black;
+    .card .isi-artikel {
+        font-size: 24px;
+        color: #434343;
+        font-weight: 500;
+        margin-bottom: 18px;
+        position: relative;
+        transition: 0.3s;
+    }
+
+    .recent-blog-posts .card:hover .isi-artikel{
+        color: #029B4B;
+    }
+    .card:hover{
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    }
+
+    .post-box:hover{
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    }
+    .card .post-date {
+        font-size: 14px;
+        font-weight: 500;
+        color: #828282;
+        display: block;
     }
     .container-artikel{
         padding-top: 101px; padding-right: 0px;
     }
     .gmb-artikel{
-        width: 780px; height: 400px; border-radius: 12px 12px 0px 0px;
+        width: 780px; height: 400px; border-radius: 12px 0px 0px 12px;
     }
     .date{
         font-size: 14px; text-align:left
@@ -201,6 +226,15 @@
         .card-kecil{
             margin-top: 20px;
             margin-bottom: 20px
+        }
+        .judul{
+            font-size: 26px
+        }
+        .garis7{
+            width: 380px
+        }
+        .jelantah-mitra{
+            font-size: 17px;
         }
     }
     @media only screen and (min-width:375px) and (max-width:410px)
@@ -366,7 +400,7 @@
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-10 col-sm-12">
                         <div class="container container-artikel">
-                        <span class="date">2021</span><br>
+                        <span class="post-date">2021</span><br>
                         <span class="isi-artikel">Minyak Jelantah Bersifat Karsinogenik, Kok Bisa?</span>
                         </div>
                     </div>

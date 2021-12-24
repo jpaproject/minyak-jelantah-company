@@ -81,9 +81,13 @@ Route::get('/materi', function () {
     return view('lainnya.materi');
 })->name('materi');
 
-Route::get('/detail', function () {
-    return view('lainnya.detail');
-})->name('detail');
+Route::get('/detail-jelantah', function () {
+    return view('lainnya.detail-jelantah');
+})->name('detail-jelantah');
+
+Route::get('/detail-pengelolaan', function () {
+    return view('lainnya.detail-pengelolaan');
+})->name('detail-pengelolaan');
 
 Route::get('/statistik', function () {
     return view('lainnya.statistik');
@@ -97,9 +101,21 @@ Route::get('/dokumentasi', function () {
     return view('lainnya.dokumentasi-kegiatan');
 })->name('dokumentasi');
 
-Route::get('/lihat-semuanya', function () {
-    return view('lainnya.lihat-semuanya');
-})->name('lihat-semuanya');
+Route::get('/lihat-semuanya-fpsn', function () {
+    return view('lainnya.lihat-semuanya-fpsn');
+})->name('lihat-semuanya-fpsn');
+
+Route::get('/lihat-semuanya-mario', function () {
+    return view('lainnya.lihat-semuanya-mario');
+})->name('lihat-semuanya-mario');
+
+Route::get('/lihat-semuanya-mario3', function () {
+    return view('lainnya.lihat-semuanya-mario3');
+})->name('lihat-semuanya-mario3');
+
+Route::get('/lihat-semuanya-pengelolaan', function () {
+    return view('lainnya.lihat-semuanya-pengelolaan');
+})->name('lihat-semuanya-pengelolaan');
 
 Route::get('/galeri', function () {
     return view('lainnya.galeri');

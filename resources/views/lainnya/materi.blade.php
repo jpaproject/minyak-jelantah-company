@@ -369,7 +369,8 @@
         }
         .gmb{
             margin:20px 0px 0px 10px;
-            width: 90%
+            width: 90%;
+            border-radius:10px 10px 0px 0px;
         }
         .isi{
             padding-left: 15px;
@@ -416,7 +417,8 @@
         }
         .gmb{
             margin:20px 0px 0px 20px;
-            width: 90%
+            width: 90%;
+            border-radius:10px 10px 0px 0px;
         }
         .isi{
             padding-left: 17px;
@@ -462,7 +464,8 @@
         }
         .gmb{
             margin:20px 0px 0px 20px;
-            width: 90%
+            width: 90%;
+            border-radius:10px 10px 0px 0px;
         }
         .isi{
             padding-left: 17px;
@@ -508,7 +511,8 @@
         }
         .gmb{
             margin:20px 0px 0px 20px;
-            width: 90%
+            width: 90%;
+            border-radius:10px 10px 0px 0px;
         }
         .isi{
             padding-left: 17px;
@@ -556,6 +560,7 @@
             margin:20px 0px 0px 20px;
             width: 90%;
             height: 253px
+            border-radius:10px 10px 0px 0px;
         }
         .isi{
             padding-left: 17px;
@@ -602,7 +607,8 @@
         .gmb{
             margin:20px 0px 0px 20px;
             width: 93%;
-            height: 376px
+            height: 376px;
+            border-radius:10px 10px 0px 0px;
         }
         .isi{
             padding-left: 17px;
@@ -622,7 +628,7 @@
             width: 452px;
         }
         .full-konten{
-            height: 2630px;
+            height: 2480px;
             margin-top: 0px
         }
         .materi{
@@ -696,7 +702,7 @@
                 <div class="col-lg-2 col-md-12 col-sm-12 bton">
                     <div class="row" data-aos="fade-up">
                     <div class="col-md-12 col-sm-12 col-bton">
-                    <a href="{{ route('detail') }}" class="default-button btn1">
+                    <a href="{{ route('detail-jelantah') }}" class="default-button btn1">
                     <span style="text-align:center;">
                         Detail
                         <i class="fab fa-readme" style="margin-left: 10px "></i>
@@ -705,7 +711,7 @@
                     </div>
                     <div class="row" data-aos="fade-up" data-aos-delay="300">
                     <div class="col-md-12 col-sm-12 col-bton">
-                    <a href="" class="default-button2 btn2">
+                    <a href="{{ asset("assets/materi/Profil J4C Juli 2020.pdf") }}" class="default-button2 btn2">
                     <span>
                         Unduh
                         <i class="fa fa-cloud-download-alt" style="color: #FFFFFF; margin-left: 10px"></i>
@@ -742,7 +748,7 @@
                 <div class="col-lg-2 col-md-12 col-sm-12 bton">
                     <div class="row" data-aos="fade-up">
                     <div class="col-md-12 col-sm-12 col-bton">
-                    <a href="{{ route('detail') }}" class="default-button btn1">
+                    <a href="{{ route('detail-pengelolaan') }}" class="default-button btn1">
                     <span style="text-align:center;">
                         Detail
                         <i class="fab fa-readme" style="margin-left: 10px "></i>
@@ -751,7 +757,7 @@
                     </div>
                     <div class="row" data-aos="fade-up" data-aos-delay="300">
                     <div class="col-md-12 col-sm-12 col-bton">
-                    <a href="" class="default-button2 btn2">
+                    <a href="{{ asset("assets/materi/[Waste4Change] Mitra Pengumpul Jelantah.pdf") }}" class="default-button2 btn2">
                     <span>
                         Unduh
                         <i class="fa fa-cloud-download-alt" style="color: #FFFFFF; margin-left: 10px"></i>

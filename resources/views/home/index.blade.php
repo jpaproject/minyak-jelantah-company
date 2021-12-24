@@ -54,7 +54,7 @@
         text-align: center;
     }
     .garis-profil{
-        background:  #029B4B;
+        background:  #3EB65F;
         width: 250px;
         height: 10px
     }
@@ -107,7 +107,7 @@
         text-align: center;
     }
     .garis-galeri{
-        background: #029B4B;
+        background: #3EB65F;
         width: 288px;
         height: 10px
     }
@@ -127,7 +127,7 @@
         text-align: center;
     }
     .garis-artikel{
-        background: #029B4B;
+        background: #3EB65F;
         width: 344px;
         height: 10px
     }
@@ -139,18 +139,44 @@
         text-align: center;
     }
     .garis-statistik{
-        background: #029B4B;
+        background: #3EB65F;
         width: 202px;
         height: 10px
     }
     .card{
-        box-shadow:  0px 8px 32px 0px rgba(1, 41, 112, 0.1);
         border-radius:12px !important; 
+        box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+        transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+        cursor: pointer;
     }
-    .card:hover {
-    transform: scale(1.08);
-    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+    .card .isi-artikel {
+        font-size: 24px;
+        color: #434343;
+        font-weight: 500;
+        margin-bottom: 18px;
+        position: relative;
+        transition: 0.3s;
     }
+
+    .recent-blog-posts .card:hover .isi-artikel{
+        color: #029B4B;
+    }
+    .card:hover{
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    }
+
+    .post-box:hover{
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    }
+    .card .post-date {
+        font-size: 14px;
+        font-weight: 500;
+        color: #828282;
+        display: block;
+    }
+
 
     .contact-card {
     text-align: center;
@@ -189,7 +215,7 @@
         text-align: center;
     }
     .garis-kata{
-        background: #029B4B;
+        background: #3EB65F;
         width: 283px;
         height: 10px
     }
@@ -248,12 +274,13 @@
         text-align: center;
     }
     .garis-partner{
-        background: #029B4B;
+        background: #3EB65F;
         width: 297px;
         height: 10px
     }
     .jelantah-tanya{
         font-size: 20px;
+        color: #029B4B;
     }
 
     .qa{
@@ -264,7 +291,7 @@
         text-align: center;
     }
     .garis-qa{
-        background: #029B4B;
+        background: #3EB65F;
         width: 426px;
         height: 10px
     }
@@ -348,7 +375,6 @@
     .content3{
         height:808px;
         margin-top: 200px;
-        margin-bottom: 155px;
     }
     .bulat5{ 
         z-index: 0;
@@ -425,20 +451,14 @@
     .title{
         margin-bottom: 48px;
     }
-    .full-konten{
-        background: #DDE1E9;
-    }
     .gmb-artikel{
-        width: 780px; height: 400px; border-radius: 12px 12px 0px 0px;
+        width: 780px; height: 400px; border-radius: 12px 0px 0px 12px ;
     }
     .container-artikel{
         padding-top: 101px; padding-right: 0px;
     }
     .date{
         font-size: 14px; text-align:left
-    }
-    .isi-artikel{
-        font-size: 24px; font-weight:500;
     }
     
     @media only screen and (min-width:1024px) and (max-width: 1199px)
@@ -795,6 +815,25 @@
     }
     @media only screen and (min-width:411px) and (max-width:539px)
     {
+        .question{
+            margin-top: 60px
+        }
+        .partner-kami{
+            margin-top: 60px
+        }
+        .tmbl-lihat{
+            position: relative;
+            bottom: 172px
+        }
+        .hide-gmb{
+            display: none;
+        }
+        .bulat4{
+            display: none;
+        }
+        .galeri-kami{
+            bottom: 0px;
+        }
         .counts{
             padding-top: 20px
         }
@@ -948,6 +987,22 @@
     }
     @media only screen and (min-width:375px) and (max-width:410px)
     {
+        .question{
+            margin-top: 60px
+        }
+        .partner-kami{
+            margin-top: 60px
+        }
+        .tmbl-lihat{
+            position: relative;
+            bottom: 172px
+        }
+        .hide-gmb{
+            display: none;
+        }
+        .bulat4{
+            display: none;
+        }
         .img-tommy{
             width: 90px; height: 90px
         }
@@ -1109,7 +1164,23 @@
         }
     }
     @media only screen and (min-width:360px) and (max-width:374px)
-    {
+    {  
+        .question{
+            margin-top: 60px
+        }
+        .partner-kami{
+            margin-top: 60px
+        }
+        .tmbl-lihat{
+            position: relative;
+            bottom: 172px
+        }
+        .hide-gmb{
+            display: none;
+        }
+        .bulat4{
+            display: none;
+        }
         .img-tommy{
             width: 90px; height: 90px
         }
@@ -1153,6 +1224,9 @@
             float: none;
             width: 100%;
             height: 430px
+        }
+        .galeri-kami{
+            bottom : 0px
         }
         .profil{
             font-size: 35px;
@@ -1703,40 +1777,40 @@
                 <img class="img-fluid gmb-galeri" src="{{asset('assets/images/home/home5.jfif')}}" alt="image">
             </div>
 
-
+            
             <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-3">
-                <img class="img-fluid gmb-galeri" src="{{asset('assets/images/home/home6.jfif')}}" alt="image">
+                <img class="img-fluid gmb-galeri hide-gmb" src="{{asset('assets/images/home/home6.jfif')}}" alt="image">
             </div>
 
             <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-3">
-                <img class="img-fluid gmb-galeri" src="{{asset('assets/images/home/home7.jfif')}}" alt="image">
+                <img class="img-fluid gmb-galeri hide-gmb" src="{{asset('assets/images/home/home7.jfif')}}" alt="image">
             </div>
             
             <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-3">
-                <img class="img-fluid gmb-galeri" src="{{asset('assets/images/home/home8.jfif')}}" alt="image">
+                <img class="img-fluid gmb-galeri hide-gmb" src="{{asset('assets/images/home/home8.jfif')}}" alt="image">
             </div>
 
             <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-3">
-                <img class="img-fluid gmb-galeri" src="{{asset('assets/images/home/home9.jfif')}}" alt="image">
+                <img class="img-fluid gmb-galeri hide-gmb" src="{{asset('assets/images/home/home9.jfif')}}" alt="image">
             </div>
             
             <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-3">
-                <img class="img-fluid gmb-galeri" src="{{asset('assets/images/home/home10.jfif')}}" alt="image">
+                <img class="img-fluid gmb-galeri hide-gmb" src="{{asset('assets/images/home/home10.jfif')}}" alt="image">
             </div>
 
             <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-3">
-                <img class="img-fluid gmb-galeri" src="{{asset('assets/images/home/home11.jfif')}}" alt="image">
+                <img class="img-fluid gmb-galeri hide-gmb" src="{{asset('assets/images/home/home11.jfif')}}" alt="image">
             </div>
 
             <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-3">
-                <img class="img-fluid gmb-galeri" src="{{asset('assets/images/home/home12.jfif')}}" alt="image">
+                <img class="img-fluid gmb-galeri hide-gmb" src="{{asset('assets/images/home/home12.jfif')}}" alt="image">
             </div>
 
             <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-3">
-                <img class="img-fluid gmb-galeri" src="{{asset('assets/images/home/home13.jfif')}}" alt="image">
+                <img class="img-fluid gmb-galeri hide-gmb" src="{{asset('assets/images/home/home13.jfif')}}" alt="image">
             </div>
 
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center tmbl-lihat">
                 <a class="btn-more mt-5" href="{{ route('galeri') }}"><i class="fas fa-chevron-circle-right"></i>  Lihat Semua Foto</a>
             </div>
         </div>
@@ -1747,7 +1821,7 @@
 
 {{-- Artikel --}}
 <!-- ======= Recent Blog Posts Section ======= -->
-<section id="recent-blog-posts" class="recent-blog-posts" style="margin-top: 150px">
+<section id="recent-blog-posts" class="recent-blog-posts">
     <div class="content3" data-aos="fade-up">
     <div class="container konten-artikel">
         <div class="bulat5"></div>
@@ -1766,7 +1840,7 @@
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-10 col-sm-12">
                         <div class="container container-artikel">
-                        <span class="date">2021</span><br>
+                        <span class="post-date">2021</span><br>
                         <span class="isi-artikel">Minyak Jelantah Bersifat Karsinogenik, Kok Bisa?</span>
                         </div>
                     </div>
@@ -2030,8 +2104,8 @@
 {{-- End Kata Mereka --}}
 
 {{-- Partner Kami --}}
-    <div class="container">
-        <div class="row partner-kami mb-4" data-aos="fade-up">
+    <div class="container partner-kami ">
+        <div class="row mb-4" data-aos="fade-up">
         <center><span class="partner">Partner Kami</span></center>
         <center><div class="garis-partner"></div></center>
         </div>
@@ -2077,7 +2151,7 @@
                             <button style="float: right" class="accordion-button collapsed" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapseTwo1" aria-expanded="false"
                             aria-controls="collapseTwo1">
-                            <span class="jelantah-tanya"> <i class="far fa-question-circle text-success">  Apa beda Heroes dan Relawan?</i></span>
+                            <span class="jelantah-tanya"> <i class="far fa-question-circle text-success" style="font-size: 24px"> </i> Apa beda Heroes dan Relawan?</span>
                             </button>
                             <div id="collapseTwo1" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                             data-bs-parent="#accordionExample">
@@ -2105,7 +2179,7 @@
                             <button style="float:right" class="accordion-button collapsed" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapseTwo2" aria-expanded="false"
                             aria-controls="collapseTwo2">
-                            <span style="float:left" class="jelantah-tanya"> <i class="far fa-question-circle text-success"> Bagaimana cara bergabung menjadi relawan Jelantah4Change </i></span>
+                            <span style="float:left" class="jelantah-tanya"> <i class="far fa-question-circle text-success" style="font-size: 24px"></i> Bagaimana cara bergabung menjadi relawan Jelantah4Change </span>
                             </button>
                             <div id="collapseTwo2" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                             data-bs-parent="#accordionExample">
@@ -2128,7 +2202,7 @@
                             <button style="float: right" class="accordion-button collapsed" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapseTwo3" aria-expanded="false"
                             aria-controls="collapseTwo3">
-                            <span style="float:left" class="jelantah-tanya"><i class="far fa-question-circle text-success">   Kapan Open Recruitment Jelantah4Change</i> </span>
+                            <span style="float:left" class="jelantah-tanya"><i class="far fa-question-circle text-success" style="font-size: 24px"></i> Kapan Open Recruitment Jelantah4Change </span>
                             </button>
                             <div id="collapseTwo3" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                             data-bs-parent="#accordionExample">
@@ -2153,7 +2227,7 @@
                             <button style="float: right" class="accordion-button collapsed" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapseTwo4" aria-expanded="false"
                             aria-controls="collapseTwo4">
-                            <span style="float:left" class="jelantah-tanya"><i class="far fa-question-circle text-success">  Bagaimana cara memberikan jelantah ke Jelantah4Change?</i></span>
+                            <span style="float:left" class="jelantah-tanya"><i class="far fa-question-circle text-success" style="font-size: 24px"></i>  Bagaimana cara memberikan jelantah ke Jelantah4Change?</span>
                             </button>
                         <div id="collapseTwo4" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                             data-bs-parent="#accordionExample">
@@ -2181,7 +2255,7 @@
                             <button style="float: right" class="accordion-button collapsed" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapseTwo5" aria-expanded="false"
                             aria-controls="collapseTwo5">
-                            <span style="float:left" class="jelantah-tanya"><i class="far fa-question-circle text-success">   Adakah relawan di kota saya?</i></span>
+                            <span style="float:left" class="jelantah-tanya"><i class="far fa-question-circle text-success" style="font-size: 24px"></i> Adakah relawan di kota saya?</span>
                             </button>
                         <div id="collapseTwo5" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                             data-bs-parent="#accordionExample">
@@ -2205,7 +2279,7 @@
                             <button style="float: right" class="accordion-button collapsed" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapseTwo6" aria-expanded="false"
                             aria-controls="collapseTwo6">
-                            <span style="float:left" class="jelantah-tanya"><i class="far fa-question-circle text-success">   Apa Jelantah4Chnage membeli jelantah?</i></span>
+                            <span style="float:left" class="jelantah-tanya"><i class="far fa-question-circle text-success" style="font-size: 24px"></i> Apa Jelantah4Chnage membeli jelantah?</span>
                             </button>
                         <div id="collapseTwo6" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                             data-bs-parent="#accordionExample">
@@ -2229,7 +2303,7 @@
                             <button style="float: right" class="accordion-button collapsed" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapseTwo7" aria-expanded="false"
                             aria-controls="collapseTwo7">
-                            <span style="float:left" class="jelantah-tanya"><i class="far fa-question-circle text-success">   Berkolaborasi dengan Jelantah4Change?</i></span>
+                            <span style="float:left" class="jelantah-tanya"><i class="far fa-question-circle text-success" style="font-size: 24px"></i> Berkolaborasi dengan Jelantah4Change?</span>
                             </button>
                         <div id="collapseTwo7" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                             data-bs-parent="#accordionExample">
@@ -2253,7 +2327,7 @@
                             <button style="float : right" class="accordion-button collapsed" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapseTwo8" aria-expanded="false"
                             aria-controls="collapseTwo8">
-                            <span style="float:left" class="jelantah-tanya"><i class="far fa-question-circle text-success">   Jelantahnya untuk apa?</i></span>
+                            <span style="float:left" class="jelantah-tanya"><i class="far fa-question-circle text-success" style="font-size: 24px"></i> Jelantahnya untuk apa?</span>
                             </button>
                         <div id="collapseTwo8" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                             data-bs-parent="#accordionExample">
@@ -2277,7 +2351,7 @@
                             <button style="float: right" class="accordion-button collapsed" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapseTwo9" aria-expanded="false"
                             aria-controls="collapseTwo9">
-                            <span style="float:left" class="jelantah-tanya"><i class="far fa-question-circle text-success">   Kak, saya tertarik untuk mengadakan pelatihan sabun atau lilin di tempat saya, bagaimana cara saya menginisiasi?</i></span>
+                            <span style="float:left" class="jelantah-tanya"><i class="far fa-question-circle text-success" style="font-size: 24px"></i> Kak, saya tertarik untuk mengadakan pelatihan sabun atau lilin di tempat saya, bagaimana cara saya menginisiasi?</span>
                             </button>
                         <div id="collapseTwo9" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                             data-bs-parent="#accordionExample">
@@ -2301,7 +2375,7 @@
                             <button style="float: right" class="accordion-button collapsed" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapseTwo10" aria-expanded="false"
                             aria-controls="collapseTwo10">
-                            <span style="float:left" class="jelantah-tanya"><i class="far fa-question-circle text-success">   Kak, saya punya komunitas, apakah kita bisa melakukan kerjasama antar komunitas? Syaratnya seperti apa?</i></span>
+                            <span style="float:left" class="jelantah-tanya"><i class="far fa-question-circle text-success" style="font-size: 24px"></i> Kak, saya punya komunitas, apakah kita bisa melakukan kerjasama antar komunitas? Syaratnya seperti apa?</span>
                             </button>
                         <div id="collapseTwo10" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                             data-bs-parent="#accordionExample">
@@ -2325,7 +2399,7 @@
                             <button style="float: right" class="accordion-button collapsed" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapseTwo11" aria-expanded="false"
                             aria-controls="collapseTwo11">
-                            <span style="float:left" class="jelantah-tanya"><i class="far fa-question-circle text-success">  Kak, bagaimana nantinya saya menyalurkan jelantah saya ke pabrik terdekat?</i></span>
+                            <span style="float:left" class="jelantah-tanya"><i class="far fa-question-circle text-success" style="font-size: 24px">  </i> Kak, bagaimana nantinya saya menyalurkan jelantah saya ke pabrik terdekat?</span>
                             </button>
                         </div>
                         <div id="collapseTwo11" class="accordion-collapse collapse" aria-labelledby="headingTwo"
@@ -2349,7 +2423,7 @@
                             <button style="float: right" class="accordion-button collapsed" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapseTwo12" aria-expanded="false"
                             aria-controls="collapseTwo12">
-                            <span style="float:left" class="jelantah-tanya"><i class="far fa-question-circle text-success">  This is an example question without expand arrow down?</i></span>
+                            <span style="float:left" class="jelantah-tanya"><i class="far fa-question-circle text-success" style="font-size: 24px"></i> This is an example question without expand arrow down?</span>
                             </button>
                         <div id="collapseTwo12" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                             data-bs-parent="#accordionExample">

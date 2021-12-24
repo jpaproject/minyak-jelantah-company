@@ -23,7 +23,7 @@ a {
 }
 
 a:hover {
-    color: black;
+    color: #434343;
     text-decoration: none;
 }
 
@@ -67,6 +67,49 @@ section {
     color: #000000;
 }
 
+@media only screen and (min-width:1024px)and (max-width:1199px) {
+
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+
+}
+
+@media only screen and (min-width:540px) and (max-width:767px) {
+    section {
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (min-width:411px) and (max-width:539px) {
+    section {
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (min-width:375px) and (max-width:410px) {
+    section {
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (min-width:360px) and (max-width:374px) {
+    section{
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width:359px) {
+    section {
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (min-width:280px) and (max-width:299px) {
+    section {
+        padding-top: 40px;
+    }
+}
 @media (max-width: 768px) {
     .section-header p {
         font-size: 28px;
@@ -638,7 +681,6 @@ section {
     background: #3EB65F;
     color: white;
     border-radius: 50px;
-    border: 2px solid #fff;
     box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
     display: inline-flex;
     align-items: center;
@@ -1578,6 +1620,45 @@ section {
 
 .recent-blog-posts .post-box:hover .post-img img {
     transform: rotate(6deg) scale(1.2);
+}
+@media only screen and (min-width:1024px)and (max-width:1199px) {}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {}
+
+@media only screen and (min-width:540px) and (max-width:767px) {
+    .recent-blog-posts{
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (min-width:411px) and (max-width:539px) {
+    .recent-blog-posts{
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (min-width:375px) and (max-width:410px) {
+    .recent-blog-posts{
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (min-width:360px) and (max-width:374px) {
+    .recent-blog-posts{
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width:359px) {
+    .recent-blog-posts{
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (min-width:280px) and (max-width:299px) {
+    .recent-blog-posts{
+        padding-top: 40px;
+    }
 }
 
 /*--------------------------------------------------------------

@@ -79,8 +79,8 @@
         text-align: center;
     }
     .garis-dokumentasi{
-        background:  #029B4B;
-        width: 480px;
+        background:  #3eb65f;
+        width: 500px;
         height: 10px
     }
     .list{
@@ -384,7 +384,7 @@
         </div>
     </div>
     <div class="col">
-    <a href="{{route('lihat-semuanya')}}"><div class="p-2 bd-highlight lihat text-end">Lihat Semuanya<i class="fas fa-angle-double-right" style="margin-left: 10px"></i> </div></a> 
+    <div class="p-2 bd-highlight lihat text-end"><a href="{{route('lihat-semuanya-fpsn')}}">Lihat Semuanya<i class="fas fa-angle-double-right" style="margin-left: 10px"></i> </a></div> 
     </div>
 </div>
 </div>
@@ -424,7 +424,7 @@
         </div>
     </div>
     <div class="col">
-    <a href="{{route('lihat-semuanya')}}"><div class="p-2 bd-highlight lihat text-end">Lihat Semuanya<i class="fas fa-angle-double-right" style="margin-left: 10px"></i> </div></a> 
+    <div class="p-2 bd-highlight lihat text-end"><a href="{{route('lihat-semuanya-mario')}}">Lihat Semuanya<i class="fas fa-angle-double-right" style="margin-left: 10px"></i> </a></div> 
     </div>
 </div>
 </div>
@@ -432,24 +432,24 @@
     <div class="container mt-4">
         <div class="row ">
             <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" data-aos="fade-right"> 
-                <img src="{{ asset('assets/images/kegiatan.png') }}" class="img-fluid gmb1" alt="">
+                <img src="{{ asset('assets/images/LAINNYA/LAINNYA - DOKUMENTASI KEGIATAN/MARIO JELA PEMASARAN/IMG_3718.JPG') }}" class="img-fluid gmb1" alt="">
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 col-gmb">
                 <div class="row" data-aos="fade-down" data-aos-delay="200">
                     <div class="col-6 gmb2-kanan">
-                        <img src="{{ asset('assets/images/foto/fotbar1.png') }}" class="img-fluid gmb2" alt="">
+                        <img src="{{ asset('assets/images/LAINNYA/LAINNYA - DOKUMENTASI KEGIATAN/MARIO JELA PEMASARAN/IMG_3719.JPG') }}" class="img-fluid gmb2" alt="">
                     </div>
                     <div class="col-6 gmb2-kiri">
-                        <img src="{{ asset('assets/images/foto/fotbar2.png') }}" class="img-fluid gmb2" alt="">
+                        <img src="{{ asset('assets/images/LAINNYA/LAINNYA - DOKUMENTASI KEGIATAN/MARIO JELA PEMASARAN/IMG_3720.JPG') }}" class="img-fluid gmb2" alt="">
                     </div>
                 </div>
 
                 <div class="row" data-aos="fade-down">
                     <div class="col-6 gmb2-kanan">
-                        <img src="{{ asset('assets/images/foto/fotbar3.png') }}" class="img-fluid gmb2" alt="">
+                        <img src="{{ asset('assets/images/LAINNYA/LAINNYA - DOKUMENTASI KEGIATAN/MARIO JELA PEMASARAN/IMG_3721.JPG') }}" class="img-fluid gmb2" alt="">
                     </div>
                     <div class="col-6 gmb2-kiri">
-                        <img src="{{ asset('assets/images/foto/foto.png') }}" class="img-fluid gmb2" alt="">
+                        <img src="{{ asset('assets/images/LAINNYA/LAINNYA - DOKUMENTASI KEGIATAN/MARIO JELA PEMASARAN/IMG_3722.JPG') }}" class="img-fluid gmb2" alt="">
                     </div>
                 </div>
             </div>
@@ -467,7 +467,7 @@
         </div>
     </div>
     <div class="col">
-    <a href="{{route('lihat-semuanya')}}"><div class="p-2 bd-highlight lihat text-end">Lihat Semuanya<i class="fas fa-angle-double-right" style="margin-left: 10px"></i> </div></a> 
+    <div class="p-2 bd-highlight lihat text-end"><a href="{{route('lihat-semuanya-mario3')}}">Lihat Semuanya<i class="fas fa-angle-double-right" style="margin-left: 10px"></i></a> </div> 
     </div>
 </div>
 </div>
@@ -475,24 +475,24 @@
     <div class="container mt-4">
         <div class="row ">
             <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" data-aos="fade-right"> 
-                <img src="{{ asset('assets/images/kegiatan.png') }}" class="img-fluid gmb1" alt="">
+                <img src="{{ asset('assets/images/LAINNYA/LAINNYA - DOKUMENTASI KEGIATAN/MARIO JELA BATCH 3/1.jpg') }}" class="img-fluid gmb1" alt="">
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 col-gmb">
                 <div class="row" data-aos="fade-down" data-aos-delay="200">
                     <div class="col-6 gmb2-kanan">
-                        <img src="{{ asset('assets/images/foto/fotbar1.png') }}" class="img-fluid gmb2" alt="">
+                        <img src="{{ asset('assets/images/LAINNYA/LAINNYA - DOKUMENTASI KEGIATAN/MARIO JELA BATCH 3/2.jpg') }}" class="img-fluid gmb2" alt="">
                     </div>
                     <div class="col-6 gmb2-kiri">
-                        <img src="{{ asset('assets/images/foto/fotbar2.png') }}" class="img-fluid gmb2" alt="">
+                        <img src="{{ asset('assets/images/LAINNYA/LAINNYA - DOKUMENTASI KEGIATAN/MARIO JELA BATCH 3/3.jpg') }}" class="img-fluid gmb2" alt="">
                     </div>
                 </div>
 
                 <div class="row" data-aos="fade-down">
                     <div class="col-6 gmb2-kanan">
-                        <img src="{{ asset('assets/images/foto/fotbar3.png') }}" class="img-fluid gmb2" alt="">
+                        <img src="{{ asset('assets/images/LAINNYA/LAINNYA - DOKUMENTASI KEGIATAN/MARIO JELA BATCH 3/4.jpg') }}" class="img-fluid gmb2" alt="">
                     </div>
                     <div class="col-6 gmb2-kiri">
-                        <img src="{{ asset('assets/images/foto/foto.png') }}" class="img-fluid gmb2" alt="">
+                        <img src="{{ asset('assets/images/LAINNYA/LAINNYA - DOKUMENTASI KEGIATAN/MARIO JELA BATCH 3/5.jpg') }}" class="img-fluid gmb2" alt="">
                     </div>
                 </div>
             </div>
@@ -510,7 +510,7 @@
         </div>
     </div>
     <div class="col">
-    <a href="{{route('lihat-semuanya')}}"><div class="p-2 bd-highlight lihat text-end">Lihat Semuanya<i class="fas fa-angle-double-right" style="margin-left: 10px"></i> </div></a> 
+    <div class="p-2 bd-highlight lihat text-end"><a href="{{route('lihat-semuanya-pengelolaan')}}">Lihat Semuanya<i class="fas fa-angle-double-right" style="margin-left: 10px"></i></a>  </div>
     </div>
 </div>
 </div>
@@ -518,24 +518,24 @@
     <div class="container mt-4">
         <div class="row ">
             <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" data-aos="fade-right"> 
-                <img src="{{ asset('assets/images/kegiatan.png') }}" class="img-fluid gmb1" alt="">
+                <img src="{{ asset('assets/images/LAINNYA/LAINNYA - DOKUMENTASI KEGIATAN/PENGELOLAAN/Ling 2.jpg') }}" class="img-fluid gmb1" alt="">
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 col-gmb">
                 <div class="row" data-aos="fade-down" data-aos-delay="200">
                     <div class="col-6 gmb2-kanan">
-                        <img src="{{ asset('assets/images/foto/fotbar1.png') }}" class="img-fluid gmb2" alt="">
+                        <img src="{{ asset('assets/images/LAINNYA/LAINNYA - DOKUMENTASI KEGIATAN/PENGELOLAAN/Ling 3.jpg') }}" class="img-fluid gmb2" alt="">
                     </div>
                     <div class="col-6 gmb2-kiri">
-                        <img src="{{ asset('assets/images/foto/fotbar2.png') }}" class="img-fluid gmb2" alt="">
+                        <img src="{{ asset('assets/images/LAINNYA/LAINNYA - DOKUMENTASI KEGIATAN/PENGELOLAAN/Ling 4.jpg') }}" class="img-fluid gmb2" alt="">
                     </div>
                 </div>
 
                 <div class="row" data-aos="fade-down">
                     <div class="col-6 gmb2-kanan">
-                        <img src="{{ asset('assets/images/foto/fotbar3.png') }}" class="img-fluid gmb2" alt="">
+                        <img src="{{ asset('assets/images/LAINNYA/LAINNYA - DOKUMENTASI KEGIATAN/PENGELOLAAN/numpang J4C_190204_0012.jpg') }}" class="img-fluid gmb2" alt="">
                     </div>
                     <div class="col-6 gmb2-kiri">
-                        <img src="{{ asset('assets/images/foto/foto.png') }}" class="img-fluid gmb2" alt="">
+                        <img src="{{ asset('assets/images/LAINNYA/LAINNYA - DOKUMENTASI KEGIATAN/PENGELOLAAN/numpang J4C_190204_0010.jpg') }}" class="img-fluid gmb2" alt="">
                     </div>
                 </div>
             </div>
