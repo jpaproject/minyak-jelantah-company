@@ -579,7 +579,7 @@
                                     </div>  
                                     <div class="col-xl-4 col-lg-3"></div>
                                     <div class=" col-xl-3 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                                        <a href="{{ asset("assets/materi/[Waste4Change] Mitra Pengumpul Jelantah.pdf") }}" class="default-button2 btn1">
+                                        <a href="{{ asset("assets/materi/[Waste4Change] Mitra Pengumpul Jelantah.pdf") }}" target="_blank" class="default-button2 btn1">
                                         <span>
                                             Unduh
                                             <i class="fa fa-cloud-download-alt" style="color: #FFFFFF; margin-left: 10px"></i>

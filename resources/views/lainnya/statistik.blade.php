@@ -981,133 +981,69 @@
 <script>
     
     Highcharts.chart('myChart', {
-    chart: {
-        type: 'spline'
-    },
+
     title: {
         text: ''
     },
+
     subtitle: {
         text: ''
     },
-    xAxis: {
-        categories: ['2010', '2011', '2012', '2013', '2014', '2015',
-            '2016', '2017', '2018', '2019', '2020', '2021']
-    },
+
     yAxis: {
         title: {
-            text: 'Temperature'
+            text: 'Jumlah'
         },
-        labels: {
-            formatter: function () {
-                return this.value + '°';
-            }
-        }
     },
-    tooltip: {
-        crosshairs: true,
-        shared: true
-    },
-    plotOptions: {
-        spline: {
-            marker: {
-                radius: 4,
-                lineColor: '#666666',
-                lineWidth: 1
-            }
-        }
-    },
-    series: [{
-        name: 'Jelantah Heroes',
-        marker: {
-            symbol: 'square'
-        },
-        data: [7.0, 6.9, 9.5, 14.5, 18.2, 21.5, 25.2, {
-            y: 26.5,
-            marker: {
-                symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
-            }
-        }, 23.3, 18.3, 13.9, 9.6]
 
+    xAxis: {
+        categories: ['2016', '2017', '2018', '2019', '2020']
+    },
+
+    legend: {
+        layout: 'vertical',
+        align: 'right',
+        verticalAlign: 'middle'
+    },
+
+    // plotOptions: {
+    //     series: {
+    //         label: {
+    //             connectorAllowed: false
+    //         },
+    //         pointStart: 2016,
+    //     }
+    // },
+
+    series: [{
+        name: 'Jelantah Terkumpul (L)',
+        data: [15, 2118, 2775, 5659, 7646]
     }, {
         name: 'Aksi Sosial',
-        marker: {
-            symbol: 'diamond'
-        },
-        data: [{
-            y: 3.9,
-            marker: {
-                symbol: 'url(https://www.highcharts.com/samples/graphics/snow.png)'
-            }
-        }, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
-    }]
-});
-</script>
-
-{{-- mobile-chart --}}
-<script>
-    
-    Highcharts.chart('myChart2', {
-    chart: {
-        type: 'spline'
-    },
-    title: {
-        text: ''
-    },
-    subtitle: {
-        text: ''
-    },
-    xAxis: {
-        categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
-            'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-    },
-    yAxis: {
-        title: {
-            text: 'Temperature'
-        },
-        labels: {
-            formatter: function () {
-                return this.value + '°';
-            }
-        }
-    },
-    tooltip: {
-        crosshairs: true,
-        shared: true
-    },
-    plotOptions: {
-        spline: {
-            marker: {
-                radius: 4,
-                lineColor: '#666666',
-                lineWidth: 1
-            }
-        }
-    },
-    series: [{
-        name: 'Tokyo',
-        marker: {
-            symbol: 'square'
-        },
-        data: [7.0, 6.9, 9.5, 14.5, 18.2, 21.5, 25.2, {
-            y: 26.5,
-            marker: {
-                symbol: 'url(https://www.highcharts.com/samples/graphics/sun.png)'
-            }
-        }, 23.3, 18.3, 13.9, 9.6]
-
+        data: [null, 1, 5, 6, 9]
     }, {
-        name: 'London',
-        marker: {
-            symbol: 'diamond'
-        },
-        data: [{
-            y: 3.9,
-            marker: {
-                symbol: 'url(https://www.highcharts.com/samples/graphics/snow.png)'
+        name: 'Pelatihan Sabun dan Lilin Jelantah',
+        data: [null, 1, 4, 5, 3]
+    }, {
+        name: 'Sosialisasi',
+        data: [10, 10, 36, 36, 16]
+    }], 
+
+    responsive: {
+        rules: [{
+            condition: {
+                maxWidth: 500
+            },
+            chartOptions: {
+                legend: {
+                    layout: 'horizontal',
+                    align: 'center',
+                    verticalAlign: 'bottom'
+                }
             }
-        }, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
-    }]
+        }]
+    }
+
 });
 </script>
 {{-- end mobile chart --}}

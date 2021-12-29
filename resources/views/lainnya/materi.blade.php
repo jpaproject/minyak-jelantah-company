@@ -711,7 +711,7 @@
                     </div>
                     <div class="row" data-aos="fade-up" data-aos-delay="300">
                     <div class="col-md-12 col-sm-12 col-bton">
-                    <a href="{{ asset("assets/materi/Profil J4C Juli 2020.pdf") }}" class="default-button2 btn2">
+                    <a href="{{ asset("assets/materi/Profil J4C Juli 2020.pdf") }}" target="_blank" class="default-button2 btn2">
                     <span>
                         Unduh
                         <i class="fa fa-cloud-download-alt" style="color: #FFFFFF; margin-left: 10px"></i>
@@ -757,7 +757,7 @@
                     </div>
                     <div class="row" data-aos="fade-up" data-aos-delay="300">
                     <div class="col-md-12 col-sm-12 col-bton">
-                    <a href="{{ asset("assets/materi/[Waste4Change] Mitra Pengumpul Jelantah.pdf") }}" class="default-button2 btn2">
+                    <a href="{{ asset("assets/materi/[Waste4Change] Mitra Pengumpul Jelantah.pdf") }}" target="_blank" class="default-button2 btn2">
                     <span>
                         Unduh
                         <i class="fa fa-cloud-download-alt" style="color: #FFFFFF; margin-left: 10px"></i>
