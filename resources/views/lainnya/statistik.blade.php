@@ -150,14 +150,6 @@
 
     }
 
-    @media only screen and (min-width:1366px){
-        .mobile-chart{
-            display:none;
-        }
-        #myChart2{
-            display:none;
-        }
-    }
 
     @media screen and (min-width:280px) and (max-width:319px){
         .judul{
@@ -196,20 +188,8 @@
         .title{
             font-size: 20px;
         }
-        .dateymw{
-            display:none;
-        }
-        .week{
-            display:none;
-        }
         .filter{
             margin-bottom:40px;
-        }
-        #myChart{
-            display:none;
-        }
-        .card-body{
-            display:none;
         }
         .judul1{
             font-size: 25px;
@@ -259,20 +239,8 @@
         .title{
             font-size: 20px;
         }
-        .dateymw{
-            display:none;
-        }
-        .week{
-            display:none;
-        }
         .filter{
             margin-bottom:40px;
-        }
-        #myChart{
-            display:none;
-        }
-        .card-body{
-            display:none;
         }
         .garis7{
             width: 290px;
@@ -333,20 +301,8 @@
         .title{
             font-size: 20px;
         }
-        .dateymw{
-            display:none;
-        }
-        .week{
-            display:none;
-        }
         .filter{
             margin-bottom:40px;
-        }
-        #myChart{
-            display:none;
-        }
-        .card-body{
-            display:none;
         }
         .garis7{
             width: 349px;
@@ -392,20 +348,8 @@
         .title{
             font-size: 20px;
         }
-        .dateymw{
-            display:none;
-        }
-        .week{
-            display:none;
-        }
         .filter{
             margin-bottom:40px;
-        }
-        #myChart{
-            display:none;
-        }
-        .card-body{
-            display:none;
         }
          .garis7{
             width: 355px;
@@ -453,12 +397,6 @@
         .title{
             font-size: 20px;
         }
-        .dateymw{
-            display:none;
-        }
-        .week{
-            display:none;
-        }
         .judul1{
             font-size:25px;
         }
@@ -468,12 +406,6 @@
         }
         .filter{
             margin-bottom:40px;
-        }
-        #myChart{
-            display:none;
-        }
-        .card-body{
-            display:none;
         }
          .garis7{
             width: 360px;
@@ -519,20 +451,8 @@
         .title{
             font-size: 20px;
         }
-        .dateymw{
-            display:none;
-        }
-        .week{
-            display:none;
-        }
         .filter{
             margin-bottom:40px;
-        }
-        #myChart{
-            display:none;
-        }
-        .card-body{
-            display:none;
         }
         .garis7{
             width: 360px;
@@ -575,20 +495,8 @@
         .title{
             font-size: 20px;
         }
-        .dateymw{
-            display:none;
-        }
-        .week{
-            display:none;
-        }
         .filter{
             margin-bottom:40px;
-        }
-        #myChart{
-            display:none;
-        }
-        .card-body{
-            display:none;
         }
          .garis7{
             width: 360px;
@@ -636,20 +544,8 @@
         .title{
             font-size: 20px;
         }
-        .dateymw{
-            display:none;
-        }
-        .week{
-            display:none;
-        }
         .filter{
             margin-bottom:40px;
-        }
-        #myChart{
-            display:none;
-        }
-        .card-body{
-            display:none;
         }
          .garis7{
             width: 360px;
@@ -705,24 +601,12 @@
         .title{
             font-size: 20px;
         }
-        .dateymw{
-            display:none;
-        }
-        .week{
-            display:none;
-        }
         .filter{
             margin-bottom:40px;
         }
         .dukung{
             width: 370px;
             height: 8px;
-        }
-        #myChart{
-            display:none;
-        }
-        .card-body{
-            display:none;
         }
          .garis7{
             width: 360px;
@@ -841,56 +725,6 @@
     </div>
 </div>
 <center>
-
-    {{-- mobile chart  --}}
-
-
-<div class="mobile-chart card">
-    <div class="row filter">
-        <div class="col-12">
-            <a class="btn-date btn-date1 mr-3" href="">Week</a>
-            <a class="btn-date btn-date1 mr-3" href="">Month</a>
-            <a class="btn-date btn-date1" href="">Year</a>
-        </div>
-    </div>
-
-    <div class="row mt-3 mb-3">
-        <div class="col-lg-12">
-            <center>
-            <a href="">
-                <i class="far fa-arrow-alt-circle-left fa-2x arah1"></i>
-            </a>
-            <span class="title">Week</span>
-            <a href="">
-                <i class="far fa-arrow-alt-circle-right fa-2x arah2"></i>
-            </a>
-            </center>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-12">
-            <div id="myChart2" ></div>
-        </div>
-    </div>
-    <div class="row justify-content-evenly">
-        <div class="col-4">
-            <p class="" style="font-family: Montserrat; font-style: normal; font-weight: 600; font-size: 20px; line-height: 24px;">3000</p>
-        </div>
-        <div class="col-4">
-            <p style="font-family: Montserrat; font-style: normal; font-weight: 600; font-size: 20px; line-height: 24px;">244</p>
-        </div>
-    </div>
-
-    <div class="row justify-content-evenly">
-        <div class="col-4">
-            <p style="font-family: Montserrat; font-style: normal; font-weight: 500; font-size: 14px; line-height: 17px;">This Year</p>
-        </div>
-        <div class="col-4">
-            <p style="font-family: Montserrat; font-style: normal; font-weight: 500; font-size: 14px; line-height: 17px;">This Month</p>
-        </div>
-    </div>
-</div>
-{{-- end mobile chart --}}
 
 
 <div class="card statistic">
